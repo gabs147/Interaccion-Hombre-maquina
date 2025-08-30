@@ -9,12 +9,26 @@ a {
 
 .nav{
   background-color: #273032;
-
+  color:aliceblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  
 }
 
 .nav img{
     width: 100px;
 
+}
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+  align-items: center;
+  width: 50%;
 }
 
 .nav button a{
@@ -27,7 +41,13 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(https://i.ytimg.com/vi/bSni3Ha0Spc/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gRygfMA8=&rs=AOn4CLDy-xYVDNgOuDOF7RueoVT86Rbpuw);
-    
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .Banner h1{
@@ -37,12 +57,49 @@ a {
     text-align: center;
 }
 
-ul {
-  margin: 0px;
+.Productos{
+width: 100%;
+height: auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content:start;
+  align-items:center;
+  align-content: center;
+  gap: 10px;
 }
 
-li {
-  list-style: none;
-  display: inline;
-  margin-right: 0.2rem;
+.Productos .Producto{
+  overflow: hidden;
+  background-color: aquamarine;
+  width: 20%;
+  height: 500px;
+  box-shadow: 5px 10px 10px;
+  border-radius: 10px;
+
+}
+
+.Productos .Producto img{
+  width: 100%;
+  height: 50%;
+  
+}
+
+.Contenido{
+  margin: 20px 10px;
+}
+
+ button{
+ background-color: blueviolet;
+ 
+}
+
+button a {
+  padding: 10px 5px ;
+}
+
+button:hover{
+  background-color: rgb(250, 59, 202);
 }
